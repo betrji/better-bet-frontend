@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Betting App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>NBA Betting App</h1>
+        <label for="date">Select Date:</label>
+        <input type="date" id="date" required>
+        <button onclick="fetchBets()">Get Bets</button>
+        <select id="bet-rank">
+            <option value="1">Top 1 Bets</option>
+            <option value="10">Top 10 Bets</option>
+            <option value="25">Top 25 Bets</option>
+            <option value="50">Top 50 Bets</option>
+            <option value="100">Top 100 Bets</option>
+        </select>
+        <button class="reset" onclick="resetSelection()">Reset Selection</button>
+        <div id="bets-output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

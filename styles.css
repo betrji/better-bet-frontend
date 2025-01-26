@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Montserrat:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Montserrat', 'Roboto', 'Inter', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #ffcc00;
+    font-family: 'Roboto', sans-serif;
+}
+
+label {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input, button, select {
+    padding: 15px;
+    font-size: 18px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+input {
+    background: #fff;
+    color: #000;
+}
+
+button {
+    background: #ffcc00;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #ffdd44;
+    transform: translateY(-2px);
+}
+
+.reset {
+    background: #ff5733;
+    color: #fff;
+}
+
+.reset:hover {
+    background: #ff6f47;
+}
+
+select {
+    background: #fff;
+    color: #000;
+}
+
+.bet-card {
+    background: #162447;
+    padding: 25px;
+    border-radius: 15px;
+    margin: 20px 0;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bet-card:hover {
+    transform: scale(1.05);
+}
+
+.bet-card h3 {
+    color: #ffcc00;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bet-card p {
+    font-size: 18px;
+    color: #ddd;
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
